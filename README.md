@@ -10,9 +10,9 @@ For example Logistic Regression can predict if an email is spam (output of 1) or
 
 ## Model
 
-Output = 0 or 1
-Hypothesis: ``Z = WX +B``
-h$\theta$(x) = sigmoid(Z)
+Output = 0 or 1<br>
+Hypothesis: ``Z = WX +B``<br>
+h$\theta$(x) = sigmoid(Z)<br>
 
 
 ## Sources

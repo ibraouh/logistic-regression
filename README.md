@@ -28,6 +28,18 @@ Linear regression is not suitable for this kind of proble because it is unbounde
 The output from the Hypothesis above is the estimated probability of classification. This is then used to infer how confident can the predicted value be the same as the actual value with an input ``X``.<br>
 For instance if the value X is ```X = [x0 x1] = [1 IP-Address]``` and if we obtain base of x1 a probability of 0.8, then this means that there is an 80% chance that the email is spam.
 
+##### Mathematical Analysis
+
+```hⲑ(x) = P(Y=1|X; theta)``` In words, hⲑ(x) is the probability that Y=1, given X, which has theta as the parameter.<br>
+Similarly, ```P(Y=1|X; theta) + P(Y=0|X; theta) = 1``` which inducts that: ```P(Y=0|X; theta) = 1 - P(Y=1|X; theta)```.
+
+##### Types of Logistic Regression
+
+- *Binary Logistic Regression:* 2 possible outcomes, ex: spam or not
+- *Multinominal Logistic Regression:* Threee or more categories without ordering, ex: Veg, Non-Veg, Vegan.
+- *Ordinal Logistic Regression:* Three or more categories with ordering, rating movies from 1 to 5.
+
+
 
 ## Sources
 

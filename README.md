@@ -12,7 +12,7 @@ For example Logistic Regression can predict if an email is spam (output of 1) or
 
 Output = 0 or 1<br>
 Hypothesis: ``Z = WX +B``<br>
-h(theta)(x) = sigmoid(Z)<br>
+hⲑ(x) = sigmoid(Z)<br>
 
 ## How it works
 
@@ -22,6 +22,11 @@ Consider if we need to classify if an email is spam (output 1), or not (0). If w
 Linear regression is not suitable for this kind of proble because it is unbounded with its values ranging from 0 to 1 with all the values in between. This is why we use Logistic regression which outputs a predition of 0 or 1 using the Sigmoid Function.
 
 #### b. *Logisitc Regression*
+
+##### Analysis of the Hypothesis *(Z = WX + B)*
+
+The output from the Hypothesis above is the estimated probability of classification. This is then used to infer how confident can the predicted value be the same as the actual value with an input ``X``.<br>
+For instance if the value X is ```X = [x0 x1] = [1 IP-Address]``` and if we obtain base of x1 a probability of 0.8, then this means that there is an 80% chance that the email is spam.
 
 
 ## Sources

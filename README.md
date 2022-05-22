@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Logistic Regression is a simple **machine leaning** model that is used when the dependent variable meaning the target is categorical.<br> 
+Logistic Regression is a simple **machine leaning** model that is used with the condition that the dependent variable, meaning the target, is **categorical**.<br> 
 It is also used in both Machine Learning and Mathematical Statistics as a modeling of probability of a discrete outcome given an input variable.<br>
 For example Logistic Regression can predict if an email is spam (output of 1) or not (output of 0). A Machine Learning model that's often compared to Logistic Regression is Linear Regression. The difference is that this model predicts with an output of 0 or 1, whereas the latter outpus a percentage of likelihood.
 
@@ -13,6 +13,15 @@ For example Logistic Regression can predict if an email is spam (output of 1) or
 Output = 0 or 1<br>
 Hypothesis: ``Z = WX +B``<br>
 h(theta)(x) = sigmoid(Z)<br>
+
+## How it works
+
+#### a. *Linear Regression*
+
+Consider if we need to classify if an email is spam (output 1), or not (0). If we use the linear regression model, we will need to setup a threshold to setup which classification can be done. For instant if we get a prediction of 0.4, and our threshold is 0.5, then the concerned email will be classified as not spam. Same goes fore any prediction above 0.5, which will be considered spam.<br>
+Linear regression is not suitable for this kind of proble because it is unbounded with its values ranging from 0 to 1 with all the values in between. This is why we use Logistic regression which outputs a predition of 0 or 1 using the Sigmoid Function.
+
+#### b. *Logisitc Regression*
 
 
 ## Sources

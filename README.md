@@ -19,7 +19,7 @@ hⲑ(x) = sigmoid(Z)<br>
 #### a. *Linear Regression*
 
 Consider if we need to classify if an email is spam (output 1), or not (0). If we use the linear regression model, we will need to setup a threshold to setup which classification can be done. For instant if we get a prediction of 0.4, and our threshold is 0.5, then the concerned email will be classified as not spam. Same goes fore any prediction above 0.5, which will be considered spam.<br>
-Linear regression is not suitable for this kind of proble because it is unbounded with its values ranging from 0 to 1 with all the values in between. This is why we use Logistic regression which outputs a predition of 0 or 1 using the Sigmoid Function.
+Linear regression is not suitable for this kind of problem because it is unbounded with its values ranging from 0 to 1 with all the values in between. This is why we use Logistic regression which outputs a predition of 0 or 1 using the Sigmoid Function.
 
 #### b. *Logisitc Regression*
 
@@ -36,12 +36,12 @@ Similarly, ```P(Y=1|X; theta) + P(Y=0|X; theta) = 1``` which inducts that: ```P(
 ##### Types of Logistic Regression
 
 - *Binary Logistic Regression:* 2 possible outcomes, ex: spam or not
-- *Multinominal Logistic Regression:* Threee or more categories without ordering, ex: Veg, Non-Veg, Vegan.
+- *Multinominal Logistic Regression:* Three or more categories without ordering, ex: Veg, Non-Veg, Vegan.
 - *Ordinal Logistic Regression:* Three or more categories with ordering, rating movies from 1 to 5.
 
 ##### Decision Bounderies
 
-Similar to Linear regression, we can sed a thereshold to categorize the predictions. This thereshold does not have to be linear, but can be complex like a polinimial function.
+Similar to Linear regression, we can sed a thereshold to categorize the predictions. This thereshold does not have to be linear, but can be complex like a polynomial function.
 
 ##### Cost Function
 

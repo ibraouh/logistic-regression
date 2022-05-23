@@ -39,7 +39,14 @@ Similarly, ```P(Y=1|X; theta) + P(Y=0|X; theta) = 1``` which inducts that: ```P(
 - *Multinominal Logistic Regression:* Threee or more categories without ordering, ex: Veg, Non-Veg, Vegan.
 - *Ordinal Logistic Regression:* Three or more categories with ordering, rating movies from 1 to 5.
 
+##### Decision Bounderies
 
+Similar to Linear regression, we can sed a thereshold to categorize the predictions. This thereshold does not have to be linear, but can be complex like a polinimial function.
+
+##### Cost Function
+
+The cost of the Logistic Regression is ```-log(hⲑ(x))``` if ```y=1```, or ```-log(1-hⲑ(x))``` if ```y=0```.<br>
+This cost function can be explained by the probability of ```P(y=1|x)``` which is the probability of y=1, given x. Additionally, we have a negative function for the cost because when we train the algorithm, we need to maximize the probability by minimizing the loss function.
 
 ## Sources
 
